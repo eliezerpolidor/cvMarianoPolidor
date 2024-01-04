@@ -1,0 +1,291 @@
+main {
+    display:flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.menu {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+    width: 25%;
+    height: 97%;
+    margin-right: 6px;
+    text-align: center;
+    position: fixed;
+
+}
+
+.content {
+    width: 65%;
+    height: 100%;
+    margin-left: 330px;
+    margin-top: 2px;
+    display: flex;
+    position: fixed;
+}
+
+.movil{
+    position: absolute;
+    left: 0px;
+    top: 320px;
+    z-index: -1;
+    font-size: 0.85vw;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: none;
+}
+
+#boton-hamburguesa{
+    position: absolute;
+    z-index: 1;
+    top: 240px;
+    right: 2px;
+    font-size: 16px;
+    display: none;
+
+}
+
+h1,
+h2,
+h3{
+    color: white;
+    margin: auto;
+    padding: 0;
+    width: max-content;
+    font-size: 2.5vw;
+
+}
+h2{
+    font-size: 2vw;
+    font-style: italic;
+
+}
+
+h3{
+    font-size: 1.5vw;
+    font-style: italic;
+    /* margin: 0; */
+}
+
+h4,
+h5{
+    font-size: 1.6vw;
+    margin: 4px;
+    vertical-align:text-top;
+    width: max-content;
+}
+
+.photomariano {
+    border-radius: 50%;
+    width: 50%;
+    margin: 5px 0 auto;
+    width: 44%;
+}
+
+.imgrepuestos {
+    width: 145%;
+    height: 145%;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    opacity: 0.3;
+}
+
+.whatsap {
+    color:darkgreen ;
+    font-size: 3vw;
+    position: absolute;
+    top:28%;
+    left: 85%;
+    transform:translate(-30%,-85%);
+    /* padding-right: 20px; */
+}
+
+.email {
+    font-size: 3vw;
+    color:blue ;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform:translate(-10%,-50%);
+    /* padding: 0 15px 0 0; */
+}
+
+.article{
+    position: relative;
+    display: inline-block;
+    text-align:justify;
+}
+
+.text-above{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform:translate(-10%,-50%);
+    font-size: 30px;
+
+}
+
+.parragraph-above {
+    position: absolute;
+    top: 0;
+    transform: translate(5%,55%);
+    font-size: 1.8vw;
+
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none
+}
+
+.menu-link:hover{
+    color:blue;
+}
+
+/* -----RESET RULES––––––––––– */
+
+:root {
+    --lightgray: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    ;
+    --blue: steelblue;
+    --white: #fff;
+    --black: rgba(0, 0, 0, 0.3);
+    --bounceEasing: cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+
+/*optiones of menu*/
+
+/*for create windows modal*/
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin: 0.6em auto 0 auto;
+    font: 10px/1.5 sans-serif;
+}
+
+.open-modal {
+    font-weight: bold;
+    font-size: 0.2rem;
+    color: var(--white);
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 blue;
+    border: #2c3e50 solid;
+    width: 80%;
+}
+
+/*------modal------*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: var(--black);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+}
+
+.modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-dialog {
+    position: relative;
+    max-width: 900px;
+    max-height: 100vh;
+    border-radius: 5px;
+    background: var(--white);
+    overflow: auto;
+    cursor: default;
+}
+
+.modal-dialog>* {
+    padding: 1rem;
+}
+
+.modal-header,
+.modal-footer {
+    background: var(--lightgray);
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.modal-header .close-modal {
+    font-size: 1rem;
+}
+
+.modal p+p {
+    margin-top: 1rem;
+}
+
+
+.modal-content {
+    font-size: 1.2rem;
+}
+
+ol {
+    padding-left: 1.5rem;
+}
+
+.imgin{
+    width: 22%;
+}
+
+/*para dispositivos moviles*/
+@media (max-width:1048px) {
+   
+    .menu {
+        display: block;
+        box-shadow: 0 0 0 0;
+        width: 90%;
+        margin-right: 0;
+        text-align: center;
+        
+    }
+    .content {
+        display:none ;
+        
+    }
+    .escritorio{
+        display: none;
+    }
+    .movil{
+        display: block;
+        top: 26vw;
+        font-size: 1vw;
+        
+    }
+
+    .photomariano {
+        width: 8vw;
+    }
+
+    #boton-hamburguesa{
+        display: block;
+    
+    }
+
+}
