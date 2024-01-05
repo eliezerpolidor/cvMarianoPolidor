@@ -28,15 +28,6 @@ main {
     position: fixed;
 }
 
-#boton-hamburguesa{
-    position: absolute;
-    z-index: 1;
-    top: 20px;
-    right: 2px;
-    display: none;
-
-}
-
 h1,
 h2,
 h3{
@@ -243,7 +234,7 @@ ol {
 
 /*para dispositivos moviles*/
 @media (max-width:1048px) {
-   
+
     .menu {
         display: block;
         box-shadow: 0 0 0 0;
@@ -252,16 +243,16 @@ ol {
         overflow-y: auto;
         margin-right: 0;
         text-align: center;
-        
+
     }
     .content {
         display:none ;
-        
+
     }
     .escritorio{
         display: none;
     }
-    
+
     .head-movil{
         position: fixed;
         top: 25px;
@@ -277,17 +268,20 @@ ol {
         text-align: justify;
         margin-left: 5px;
         margin-right: 5px;
-        
-        
+
+
     }
     .photomariano {
         width: 8vw;
         margin: 0 0 0 0;
     }
-    
+
     #boton-hamburguesa{
         display: block;
-    
-    }
+        position: absolute;
+        z-index: 2;
+        top: 20px;
+        right: 20px; 
 
+    }
 }
