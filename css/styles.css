@@ -248,7 +248,8 @@ ol {
         display: block;
         box-shadow: 0 0 0 0;
         width: 90%;
-        height: 90%;
+        height:calc(100%-200px);
+        overflow-y: auto;
         margin-right: 0;
         text-align: center;
         
@@ -261,15 +262,22 @@ ol {
         display: none;
     }
     
+    .head-movil{
+        position: fixed;
+        top: 25px;
+        right: 30px;
+        width: 100%;
+    }
+
     .movil{
         position: absolute;
-        top: 200px;
+        top: 160px;
         right: 5px;
-        font-size: 20px;
+        font-size: 12px;
         text-align: justify;
         margin-left: 5px;
         margin-right: 5px;
-        overflow-y:calc(90%-2px);
+        
         
     }
     .photomariano {
