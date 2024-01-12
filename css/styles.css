@@ -239,7 +239,7 @@ ol {
         display: block;
         box-shadow: 0 0 0 0;
         width: 90%;
-        height:calc(100%-200px);
+        height:calc(100%-90px);
         overflow-y: auto;
         margin-right: 0;
         text-align: center;
@@ -265,7 +265,7 @@ ol {
         position: absolute;
         top: 160px;
         right: 5px;
-        font-size: 12px;
+        font-size: 18px;
         text-align: justify;
         margin-left: 5px;
         margin-right: 5px;
@@ -273,7 +273,7 @@ ol {
 
     }
     .photomariano {
-        width: 8vw;
+        width: 11vw;
         margin: 0 0 0 0;
     }
 
