@@ -215,7 +215,7 @@ ol {
         width: 100%;
     }
     .cvphoto{
-        width: 45%;
+        width: 60%;
         /* height:calc(550-330); */
         text-align: center;
         margin: 0;
@@ -226,7 +226,7 @@ ol {
         margin: 5px;
     }
     .contactame{
-        font-size: 25px;
+        font-size: 50px;
         position: absolute;
         top: 170px;
         right: 60px;
@@ -234,16 +234,16 @@ ol {
     .bars{
         display:inline; 
         margin-left: 30px;
-        font-size: 22px;
+        font-size: 50px;
         cursor: pointer;
         z-index: 6;
     }
     .coverletter{
         
         position: absolute;
-        top: 310px;
+        top: 420px;
         left: 20px;
-        font-size: 18px;
+        font-size: 24px;
         text-align: justify;
         margin: 0;
         width: 95%;
@@ -260,7 +260,7 @@ h3{
     .bar_nav_link{
         display:inline;
         position: absolute;
-        top: 270px;
+        top: 420px;
         left: 2.1%;
         width: 95%;
         z-index: 4;
