@@ -263,7 +263,7 @@ h3{
         top: 450px;
         left: 2.1%;
         width: 95%;
-        height: 80%;
+        height: 100%;
         z-index: 4;
         background: #bdc3c7;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -279,7 +279,6 @@ h3{
         .btn-group {
             width: 40%;
             font: 20px/1.5 sans-serif;
-            
         }  
         .bar_nav_link{
             font-size: 20px;
