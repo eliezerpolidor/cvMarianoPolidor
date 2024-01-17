@@ -244,7 +244,7 @@ ol {
         position: absolute;
         top: 540px;
         
-        font-size: 30px;
+        font-size: 40px;
         text-align: justify;
         margin: 0;
         padding: 20px;
@@ -261,8 +261,9 @@ h3{
     font-size: 2.5vw;
 }
     .h5{
-        font-size: 20px;
+        font-size: 50px;
         text-decoration:underline double blue;
+        margin-bottom: 20px;
     }
     .bar_nav_link{
         display:inline;
