@@ -241,7 +241,7 @@ ol {
     .coverletter{
         
         position: absolute;
-        top: 420px;
+        top: 450px;
         left: 20px;
         font-size: 24px;
         text-align: justify;
@@ -260,9 +260,10 @@ h3{
     .bar_nav_link{
         display:inline;
         position: absolute;
-        top: 420px;
+        top: 450px;
         left: 2.1%;
         width: 95%;
+        height: 80%;
         z-index: 4;
         background: #bdc3c7;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -274,5 +275,13 @@ h3{
         .bar_nav_link_visible{
            visibility: visible;
            opacity: 1;
+        }
+        .btn-group {
+            width: 40%;
+            font: 20px/1.5 sans-serif;
+            
+        }  
+        .bar_nav_link{
+            font-size: 20px;
         }
 }
