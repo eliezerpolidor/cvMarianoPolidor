@@ -213,9 +213,11 @@ ol {
         position: absolute;
         left: 0;
         width: 100%;
+        box-shadow: none;
     }
+    
     .cvphoto{
-        width: 60%;
+        width: 80%;
         /* height:calc(550-330); */
         text-align: center;
         margin: 0;
@@ -239,14 +241,19 @@ ol {
         z-index: 6;
     }
     .coverletter{
-        
         position: absolute;
-        top: 450px;
-        left: 20px;
-        font-size: 24px;
+        top: 540px;
+        
+        font-size: 30px;
         text-align: justify;
         margin: 0;
-        width: 95%;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        background: #bdc3c7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #455b71, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
     }
 h1,
 h2,
@@ -260,10 +267,10 @@ h3{
     .bar_nav_link{
         display:inline;
         position: absolute;
-        top: 450px;
+        top: 540px;
         left: 2.1%;
         width: 95%;
-        height: 150%;
+        height: 160%;
         z-index: 4;
         background: #bdc3c7;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
