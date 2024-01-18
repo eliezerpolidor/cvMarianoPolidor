@@ -174,8 +174,8 @@ hr{
 
 .modal-dialog {
     position: relative;
-    max-width: 400px;
-    max-height: 50vh;
+    max-width: 900px;
+    max-height: 100vh;
     border-radius: 5px;
     background: var(--white);
     overflow: auto;
@@ -341,5 +341,15 @@ h3{
             border: #2c3e50 solid;
             width: 80%;
             cursor: pointer;
+        }
+
+        .modal-dialog {
+            position: relative;
+            max-width: 400px;
+            max-height: 50vh;
+            border-radius: 5px;
+            background: var(--white);
+            overflow: auto;
+            cursor: default;
         }
 }
