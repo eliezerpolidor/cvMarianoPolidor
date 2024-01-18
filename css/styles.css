@@ -228,15 +228,17 @@ ol {
         margin: 5px;
     }
     .contactame{
-        font-size: 50px;
+        font-size: 70px;
         position: absolute;
         top: 170px;
-        right: 60px;
+        right: 20px;
     }
-    .bars{
+    .bars, 
+    .whatsap,
+    .email{
         display:inline; 
         margin-left: 30px;
-        font-size: 50px;
+        font-size: 80px;
         cursor: pointer;
         z-index: 6;
     }
@@ -253,7 +255,7 @@ ol {
         background: #bdc3c7;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to bottom, #455b71, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+        overflow-y: auto;
     }
 h1,
 h2,
@@ -262,7 +264,7 @@ h3{
 }
     .h5{
         font-size: 50px;
-        text-decoration:underline double blue;
+        text-decoration:underline double white;
         margin-bottom: 20px;
     }
     .bar_nav_link{
@@ -302,5 +304,13 @@ h3{
             width: 80%;
             height: 100%;
             cursor: pointer;
+        }
+
+        .whatsap {
+            color:darkgreen ;
+        }
+        
+        .email {
+            color:blue ;
         }
 }
