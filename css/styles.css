@@ -220,7 +220,7 @@ ol {
 }
 
 /*FOR MOVIL*/
-@media (max-width:300px){
+@media (max-width:768px){
     .bar_nav_link {
         display: none;
     }
