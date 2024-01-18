@@ -174,8 +174,8 @@ hr{
 
 .modal-dialog {
     position: relative;
-    max-width: 900px;
-    max-height: 100vh;
+    max-width: 400px;
+    max-height: 50vh;
     border-radius: 5px;
     background: var(--white);
     overflow: auto;
@@ -334,10 +334,12 @@ h3{
         .imgwhatsApp{
             width: 5%;
         }
-        /* .imgbars{
-            background: none;
-            border: none;
-            padding: 0 10px;
-        } */
-        
+        /*modal*/
+        .open-modal {
+            background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+            box-shadow: 0 0 20px 0 blue;
+            border: #2c3e50 solid;
+            width: 80%;
+            cursor: pointer;
+        }
 }
